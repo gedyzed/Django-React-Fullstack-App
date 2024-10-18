@@ -1,1 +1,4 @@
-
+path='backend'
+component_type='service'
+build_pack='python'
+language_version=3.12.x
