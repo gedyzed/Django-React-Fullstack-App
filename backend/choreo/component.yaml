@@ -1,4 +1,8 @@
-path='backend'
-component_type='service'
-build_pack='python'
-language_version=3.12.x
+version: 0.1
+
+endpoints:
+  - name: "REST API"
+    port: 8080
+    type: REST
+    networkVisibility: public
+    context:/
