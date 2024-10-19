@@ -1,8 +1,8 @@
 version: 0.1
 
 endpoints:
-  - name: "REST API"
-    port: 8000
+  - name: "Test REST Endpoint"
+    port: 8080
     type: REST
     networkVisibility: public
-    context:/
+    context: /
